@@ -1,0 +1,39 @@
+.btn {
+  padding: 0.75rem 2.5rem;
+  border-radius: 100vh;
+  cursor: pointer;
+  
+  &:hover,
+  &:focus {
+    opacity: 0.5;
+  }
+}
+
+
+.btn--accent {
+  color: white;
+  background-color: black;
+
+  // &:hover,
+  // &:focus {
+  //   background-color: rgb(42 207 207 / 0.5)
+  // }
+}
+
+.btn--transparent {
+  &:hover{
+    background-color: white;
+    color: black;
+  }
+  &:focus {
+    opacity: 1;
+  }
+}
+
+.btn--radius-small {
+  border-radius: 0.25rem;
+}
+
+.btn--dark {
+  background-color: black;
+}

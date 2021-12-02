@@ -1,0 +1,12 @@
+@forward './shortening-form';
+@forward './shortening-results';
+
+.page-content {
+    background-color: #f2f1f3;
+    margin-top: 10rem;
+
+    .container {
+        position: relative;
+        padding-top: 1px;
+    }
+}

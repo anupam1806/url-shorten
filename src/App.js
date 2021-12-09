@@ -7,6 +7,7 @@ const App = () => (
     <main>
         <ShorteningApp />
     </main>
+    
   </div>
 );
 
